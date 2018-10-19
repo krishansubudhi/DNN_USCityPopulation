@@ -1,7 +1,5 @@
 # DNN_USCityPopulation
 DNN model to predict US city population.
-
-This is my first self project on DNN.
 Libraries used are *python numpy, pandas, keras*
 
 ## Task
