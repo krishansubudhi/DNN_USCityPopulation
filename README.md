@@ -1,7 +1,7 @@
 # DNN_USCityPopulation
 DNN model to predict US city population.
 
-This is my first self project of DNN model.
+This is my first self project on DNN.
 libraries used are python numpy, pandas, keras
 
 ## Task
@@ -21,6 +21,7 @@ https://www.census.gov/geo/maps-data/data/gazetteer2010.html
 
 ![Alt text](images/dataframe.PNG?raw=true "Original data converted to data frame")
 
+## Training
 This repo contains all the experiments done with hyper parameters. As per my analysis,
 
 After multiple experiemnts with the number of layers, batch_size a 4 layered DNN with a batch size of 50 produced best result.
@@ -38,6 +39,7 @@ history = model.fit(x_train,y_train,
  ```        
 ![Alt text](images/loss_error.PNG?raw=true "loss and mae after training")
 
+## Evaluation
 The final MAPE was 25% and MAE was 14%, which in my view is a good performance considering the limited number of features provided.
 This model can still be improved and open to pull requests.
 ![Alt text](images/result.PNG?raw=true "sample predictions on validation set") 
