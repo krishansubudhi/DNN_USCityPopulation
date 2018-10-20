@@ -4,12 +4,12 @@ Libraries used are *python numpy, pandas, keras*
 
 ## Task
 Predict population of a US CITY from the following input
-Area LAND
-Area WATER
-LATitude
-LONGitude
-STATE
-UrbanAreatype
+ * Area LAND
+ * Area WATER
+ * LATitude
+ * LONGitude
+ * STATE
+ * UrbanAreatype
 
 ## Data Source
 Data from US census report 2010
